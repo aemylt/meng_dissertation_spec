@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+Normally we'd collect information about your projects using an online form,
+but the CS web-site is being retired and SAFE isn't up to the task yet.  As 
+an interim solution the idea is that
+
+- you complete this XML file, replacing the template content but retaining
+  the structure, and submit it via SAFE,
+  then
+- later, and hopefully (semi-)automatically, we'll import it into SAFE for 
+  you in order to drive the assessment process.
+
+This submission is intended to collect a precise and definitive set of admin. 
+details from you.  Changes to the project topic etc. are out of scope, and
+at your descression: we simply want details required to drive the assessment
+process and so on.  Take care to complete *all* the fields correctly, since
+missing or incorrect information can be problematic later.
+-->
+
+ <project>
+
+<!-- 
+In this section, we want
+
+1. your CS user name 
+   (e.g., "jl8971"),
+2. your project title (even if you change this later),
+3. the full name of                your Supervisor within  CS,
+   (e.g., "Dan Page"),
+4. whether said Supervisor is  confirmed or tentative,
+5. the full name (and affiliation) any  Advisor(s) outside CS 
+   (e.g., an industrial collaborator such as "Fred Bloggs, IBM"),
+6. whether said Advisor(s) are confirmed or tentative,
+   and
+7. whether your project is of type enterprise or research (which implies you
+   are also registered on the associated "sister unit").
+-->
+
+  <admin>
+               <username> ...                   </username>
+                  <title> ...                   </title>
+
+             <supervisor> ...                   </supervisor>
+   <confirmed_supervisor> [yes|no]              </confirmed_supervisor>
+
+                <advisor> ...                   </advisor>
+      <confirmed_advisor> [yes|no|n/a]          </confirmed_advisor>
+
+                   <type> [enterprise|research] </type>
+ </admin>
+
+</project>
